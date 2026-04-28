@@ -21,5 +21,5 @@ permissions:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push Docker image
         run: |
-          docker build . --tag ghcr.io/jaionegar-kyndryl/-jaionegar-kyndryl-skills-publish-docker-images/stackoverflown:main
-          docker push ghcr.io/jaionegar-kyndryl/-jaionegar-kyndryl-skills-publish-docker-images/stackoverflown:main
+          docker build . --tag ghcr.io/jaionegar-kyndryl/skills-publish-docker-images/stackoverflown:main
+          docker push ghcr.io/jaionegar-kyndryl/skills-publish-docker-images/stackoverflown:main
